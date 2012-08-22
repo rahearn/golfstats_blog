@@ -1,0 +1,12 @@
+---
+layout: post
+title: Brand New
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date | date_to_string }}
+
+We're going down temporarily to launch a brand new "GolfStats":http://www.golf-stats.net with a completely redesigned look and a brand new backend that will allow for future growth much better than the old PHP mismash.
+
+See you soon.

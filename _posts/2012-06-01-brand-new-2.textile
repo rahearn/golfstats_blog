@@ -1,0 +1,14 @@
+---
+layout: post
+title: Brand New Site Released
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date | date_to_string }}
+
+"GolfStats":http://www.golf-stats.net will be relaunched as soon as DNS caches expire and the new address is noticed.
+
+I ran into a problem with importing legacy data into the new system. It's all still safe, but there is a more manual process needed to transfer the data. You can thank Google's per-domain OpenID key for this issue. Please send an email to "support@golf-stats.net":mailto:support@golf-stats.new if you'd like your old rounds to be moved into the new system.
+
+I hope you enjoy the new site.

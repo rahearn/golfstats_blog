@@ -1,0 +1,17 @@
+---
+layout: post
+title: GolfStats Support Email
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date | date_to_string }}
+
+GolfStats now has an email address: "support&#64;golf-stats&#46;net":mailto:support@golf-stats.net.  Please use this email for any support or feature requests you have.
+
+Currently, email is the only way to do the following:
+* Add another OpenID provider to your account
+* Delete an incorrectly entered round
+* Edit your name
+
+You can also use this email address to report any bugs you find, if you prefer not to use the "Launchpad bug tracker":https://bugs.launchpad.net/golfstats.

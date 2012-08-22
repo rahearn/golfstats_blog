@@ -1,0 +1,23 @@
+---
+layout: default
+title: GolfStats News and Announcements
+---
+
+<div id="home">
+  <div id="status">
+    <h1>Down for everyone, or just you?</h1>
+    <iframe src="https://heroku.newrelic.com/public/charts/jpTys927NJm" width="500" height="300" scrolling="no" frameborder="no"></iframe>
+    <iframe src="https://heroku.newrelic.com/public/charts/7CKSXHLtU8D" width="500" height="300" scrolling="no" frameborder="no"></iframe>
+    <p>A big red line in that chart means we're having some issues.</p>
+  </div>
+  {% if site.posts.size > 0 %}
+  <div id="related">
+  <h1>News</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,34 @@
+---
+layout: post
+title: Welcome to GolfStats
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date | date_to_string }}
+
+We're happy to announce the launch of "golf-stats.net":http://www.golf-stats.net and with it a new way for you to keep track of your golf game.
+
+Have you ever thought that you'd played a decent, even great game in some aspect, even if the score didn't reflect it?
+
+Have you ever wondered if one part of your game was improving, or where you could spend more practice time to get even better?
+
+"golf-stats.net":http://www.golf-stats.net is a hobby project and work in progress, but it aims to give you, the occasional golfer, the tools to know if your putting is getting any better, or if you really are hitting your drives better today.  Each time you golf, keep track on each hole of everything you want to follow in your own game.  Once you are done, enter your scores into "golf-stats.net":http://www.golf-stats.net and we will calculate your handicap for you and give you a chance to see how you've played in each round.
+
+h3. Now and the Near Future
+
+Currently, "golf-stats.net":http://www.golf-stats.net can acccept the following data for each hole:
+* Score
+* Number of putts
+* Number of penalties
+* Number of duffs (the concept was made by a bad golfer)
+* Whether you hit the fairway in regulation
+* Whether you made the green in regulation
+
+Once you've entered that data, you can see details of the past 20 rounds and calculate your course handicap.
+
+By the end of March, we plan on releasing the next version of "golf-stats.net":http://www.golf-stats.net, version 0.3.2.  The most important feature of this version is the creation of the graphs that will show you how you did on a per hole basis when viewing just one round, but also on an aggregate level over time when you are viewing a list of rounds you have played.  It is this information that will better prepare you for knowing what to focus on next round.
+
+h3. The Farther Future
+
+The next step for "golf-stats.net":http://www.golf-stats.net is the developement of the 0.4 version.  Planned already is the ability to save and graph and arbitrary statistic you may want to keep.  Want to know how many beers per nine you're drinking?  We'll be able to tell you.  Want to know your percentage of fairways hit after also hitting a tree?  We will be able to do that too.

@@ -1,0 +1,12 @@
+---
+layout: post
+title: GolfStats Blog Comments
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date | date_to_string }}
+
+The GolfStats blog now has a commenting system for individual posts, powered by "Reframe It":http://reframeit.com.
+
+You'll notice a side bar on the right of each individual post page.  You can comment by clicking the "Add Comment" button, or you can comment on a specific part of any post by highlighting the text you wish to comment on and clicking the "Add Note" button.  We hope to make GolfStats even better with your comments and suggestions.

@@ -1,0 +1,33 @@
+---
+layout: post
+title: GolfStats 0.3.2 is Here
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date | date_to_string }}
+
+Later today, "golf-stats.net":http://www.golf-stats.net will be upgraded to GolfStats version 0.3.2.  This release has been in the works for the past month and finally introduces one of the original features I thought about when I started this project: performance graphs.
+
+There are two different types of graphs available in GolfStats.  The first compares aggregate statistics across different rounds.
+
+p{text-align: center}. !/img/0_3_2_multiple_rounds.jpg!
+
+Creating this graph requires just three steps:
+# Go to the "list rounds" page
+# Select the rounds you wish to graph and click the "Graph Rounds" button
+# Select the statistics you wish to graph and click the "Graph" button
+
+Note that you can graph rounds entered with the simple form, but only their score will show on the graph.
+
+The second type of graph displays only one round, with the hole number on the x-axis.  This graph only requires two steps to access it:
+# View the round details page
+# Select the statistics you wish to graph and click the "Graph Statistics" button
+
+p{text-align: center}. !/img/0_3_2_single_round.jpg!
+
+The other significant new feature of GolfStats 0.3.2 is the list courses screen.  This page lists all of the golf courses you have played at least one round on, and provides a links to view course notes and the individual rounds for just that course.
+
+h3. Update
+
+The upgrade to 0.3.2 is complete.

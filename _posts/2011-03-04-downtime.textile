@@ -1,0 +1,16 @@
+---
+layout: post
+title: GolfStats Temporarily Down
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date | date_to_string }}
+
+The server that hosts "GolfStats":http://www.golf-stats.net will be undergoing an upgrade today that will lead to downtime. We expect to be up and running again within 24 hours, but as this is a hobby project there is always the chance that more pressing matters move the upgrade to the back-burner.
+
+We will update this blog post with any status updates as they become necessary.
+
+h6. Update
+
+Everything should be back to normal now.

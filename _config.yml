@@ -1,0 +1,3 @@
+destination: /var/www/gs_blog/
+permalink: pretty
+lsi: true
