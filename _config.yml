@@ -1,3 +1,5 @@
-destination: /var/www/gs_blog/
 permalink: pretty
 lsi: true
+destination: /tmp/gs_blog/
+server: true
+auto: true
