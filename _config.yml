@@ -1,5 +1,4 @@
 permalink: pretty
 lsi: true
+markdown: kramdown
 destination: /tmp/gs_blog/
-server: true
-auto: true
